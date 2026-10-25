@@ -1,0 +1,30 @@
+# Gradle / Android Studio
+.gradle/
+.kotlin/
+build/
+/app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+.idea/
+.navigation/
+local.properties
+
+# İmza anahtarları (asla repoya girmez)
+keystore.properties
+*.jks
+*.keystore
+
+# Derleme çıktıları
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Günlük ve geçici dosyalar
+*.log
+*.hprof
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--
+    Pencerenin XML teması. Asıl renkler Compose tarafındadır; burada yalnızca
+    başlık çubuğu kapatılır ve açılışta beyaz flaş olmasın diye zemin laciverde boyanır.
+  -->
+  <style name="Theme.Havali" parent="android:Theme.Material.NoActionBar">
+    <item name="android:windowBackground">@color/havali_navy</item>
+  </style>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Open-Meteo'ya bağlanmak için. Bildirilmezse Retrofit isteği çalışma anında başarısız olur. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Android 13+ cihazlarda "çıkış vakti" bildirimi göstermek için kullanıcı onayı gerekir. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".HavaliApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Havali">
+
+        <!-- Uygulamanın tek Activity'si; ana ekrandaki simgeye dokununca açılır. -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+          BroadcastReceiver: AlarmManager'ın "zamanı geldi" yayınını yakalar ve
+          çıkış hatırlatıcısı bildirimini gösterir. Yalnızca uygulamanın kendisi
+          tetiklediği için dışarıya kapalıdır (exported=false).
+        -->
+        <receiver
+            android:name=".notification.DepartureReminderReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>
