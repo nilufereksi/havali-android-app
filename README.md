@@ -51,6 +51,8 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 3. Yol & Sağlık: yola çıkmadan önce
 <!-- Ekran görüntüsü: ![Yol ve Sağlık](docs/yol.png) -->
+<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/13498b0a-364b-4baa-84b5-052ba759aecf" />
+
 
 - **Trafik haritası:** İzmir ve Gemlik'in ana yolları akıcıyken turkuaz, yoğunken turuncu, tıkalıyken kırmızıdır; üzerlerinde araçlar akar. Yol tıkalıysa **saks mavisi alternatif rota** önerir, tek dokunuşla seçersin.
 - **Uyarılar:** Fırtına, kıyıda dalga ve sis için kırmızı ünlemli uyarı gösterir.
@@ -60,6 +62,8 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 4. Hazırlık: kapıdan çıkmadan
 <!-- Ekran görüntüsü: ![Hazırlık](docs/hazirlik.png) -->
+<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/1cf0bfb6-3547-4763-8d12-0bee6514789a" />
+
 
 - **Hazır mısın? kartı:** Bugünün havası canlı çizilir; listeyi işaretledikçe halka dolar.
 - **Ne giysem?** Sana göre hissedilen sıcaklık ve yağmura göre üç parça önerir.
@@ -67,6 +71,15 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 - **Valiz:** Nereden → nereye ve kaç gece seçersin; iki şehri karşılaştırır, "kışlık ağırlıklı" der ve listeyi hazırlar.
 
 **Her ekranda:** Koyu ve açık tema düğmesi, sağda kaydırma çubuğu; telefon yan çevrilince iki sütunlu düzen açılır.
+
+### 5. Açık/Koyu Tema, arama çubuğu ve responsive tasarm
+<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/2450d912-e5b7-4b29-89fb-d6cd4ba4eb58" />
+<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/c0f98b91-81d1-4a22-8067-0a2b8f35a317" />
+<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/3ff22787-1442-4c1c-abf1-8088b77e9a2d" />
+<img width="1141" height="555" alt="image" src="https://github.com/user-attachments/assets/cfd1b56b-8f53-4057-a946-9f2fb1111f90" />
+<img width="1141" height="555" alt="image" src="https://github.com/user-attachments/assets/bd79a750-3887-45ae-a94e-1f5f06795f0a" />
+
+
 
 ## Mimari
 
