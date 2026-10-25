@@ -29,7 +29,7 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
     <td><img src="https://github.com/user-attachments/assets/d3013df3-d79c-4c17-b709-970d3903ac1b" width="300" /></td>
     <td><img src="https://github.com/user-attachments/assets/57f365a8-1081-461d-9c8d-cfabd843276f" width="300" /></td>
     <td><img src="https://github.com/user-attachments/assets/33d7a2b7-3b3d-4f03-8e6b-651e049d11fa" width="300" /></td>
-    <td><img src=""https://github.com/user-attachments/assets/96539fd3-e4bb-478d-88a9-dde5020779bb"  width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/96539fd3-e4bb-478d-88a9-dde5020779bb"  width="300" /></td>
   </tr>
 </table>
 
