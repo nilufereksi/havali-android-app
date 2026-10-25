@@ -20,7 +20,7 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
 <!-- Videoyu buraya ekle: GitHub'da düzenleme ekranına .mp4 dosyasını sürükleyip bırakman yeterli. -->
 >FPS düşmemesi için 4 part olarak video yüklendi.
 
-
+<div align="center">
 <table>
   <tr>
     <th align="center">1. PART</th>
