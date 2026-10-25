@@ -18,24 +18,23 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
 <!-- Videoyu buraya ekle: GitHub'da düzenleme ekranına .mp4 dosyasını sürükleyip bırakman yeterli. -->
 >FPS düşmemesi için 4 part olarak video yüklendi.
 
+<table>
+  <tr>
+    <th>1. PART</th>
+    <th>2. PART</th>
+    <th>3. PART</th>
+    <th>4. PART</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d3013df3-d79c-4c17-b709-970d3903ac1b" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/57f365a8-1081-461d-9c8d-cfabd843276f" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/33d7a2b7-3b3d-4f03-8e6b-651e049d11fa" width="300" /></td>
+    <td><img src=""https://github.com/user-attachments/assets/96539fd3-e4bb-478d-88a9-dde5020779bb"  width="300" /></td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d3013df3-d79c-4c17-b709-970d3903ac1b" width="300" />
-  <img src="https://github.com/user-attachments/assets/57f365a8-1081-461d-9c8d-cfabd843276f" width="300" /> 
-</p>
-
->1. PART:
-<img width="347" height="720" alt="1" src= />
-
->2. PART:
-<img width="347" height="720" alt="2" src="https://github.com/user-attachments/assets/57f365a8-1081-461d-9c8d-cfabd843276f" />
-
->3. PART:
-<img width="347" height="720" alt="3" src="https://github.com/user-attachments/assets/33d7a2b7-3b3d-4f03-8e6b-651e049d11fa" />
-
->4. PART:
-<img width="347" height="720" alt="4" src="https://github.com/user-attachments/assets/96539fd3-e4bb-478d-88a9-dde5020779bb" />
-
+  
 
 ## Çalıştırma
 
