@@ -116,11 +116,19 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
     <td><img src="https://github.com/user-attachments/assets/c0f98b91-81d1-4a22-8067-0a2b8f35a317" width="300" /></td>
     <td><img src="https://github.com/user-attachments/assets/3ff22787-1442-4c1c-abf1-8088b77e9a2d" width="300" /></td>
   </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <img src="https://github.com/user-attachments/assets/cfd1b56b-8f53-4057-a946-9f2fb1111f90" width="765" />
+    </td>
+  </tr>
+
+  <!-- Alttaki 2. Yatay Görsel (3 Sütunu Kaplar) -->
+  <tr>
+    <td colspan="3" align="center">
+      <img src="https://github.com/user-attachments/assets/bd79a750-3887-45ae-a94e-1f5f06795f0a" width="765" />
+    </td>
+  </tr>
 </table>
-
-<img width="1141" height="555" alt="image" src="https://github.com/user-attachments/assets/cfd1b56b-8f53-4057-a946-9f2fb1111f90" />
-<img width="1141" height="555" alt="image" src="https://github.com/user-attachments/assets/bd79a750-3887-45ae-a94e-1f5f06795f0a" />
-
 
 
 ## Mimari
