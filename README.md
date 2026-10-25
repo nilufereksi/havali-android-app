@@ -68,7 +68,9 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 2. Planlar: kaydır, eşleş, plan oluşsun
 <!-- Ekran görüntüsü: ![Planlar](docs/planlar.png) -->
-<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/1cac98b1-2f37-4c3d-b6c5-911142fe3341" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1cac98b1-2f37-4c3d-b6c5-911142fe3341"  width="300" />
+</p>
 
 - **Grup oylaması:** "Beyza plan oylaması başlattı!" bildirimi kediyle gelir. Kartı sağa kaydırınca varsın, sola kaydırınca yoksun. Karar çıkınca plan takvime eklenir; istersen **kararını geri alırsın**.
 - **Akıllı çıkış saati:** Yağış, akşam yoğunluğu ve yoldaki raporlarla "17:30 değil, 17:11'de çık" der; hatırlatıcıyı açarsan zamanı gelince bildirim gönderir.
@@ -77,7 +79,9 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 3. Yol & Sağlık: yola çıkmadan önce
 <!-- Ekran görüntüsü: ![Yol ve Sağlık](docs/yol.png) -->
-<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/13498b0a-364b-4baa-84b5-052ba759aecf" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/13498b0a-364b-4baa-84b5-052ba759aecf" width="300" />
+</p>
 
 
 - **Trafik haritası:** İzmir ve Gemlik'in ana yolları akıcıyken turkuaz, yoğunken turuncu, tıkalıyken kırmızıdır; üzerlerinde araçlar akar. Yol tıkalıysa **saks mavisi alternatif rota** önerir, tek dokunuşla seçersin.
@@ -88,7 +92,9 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 4. Hazırlık: kapıdan çıkmadan
 <!-- Ekran görüntüsü: ![Hazırlık](docs/hazirlik.png) -->
-<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/1cf0bfb6-3547-4763-8d12-0bee6514789a" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1cf0bfb6-3547-4763-8d12-0bee6514789a"  width="300" />
+</p>
 
 
 - **Hazır mısın? kartı:** Bugünün havası canlı çizilir; listeyi işaretledikçe halka dolar.
