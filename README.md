@@ -1,6 +1,8 @@
-# Havalı 🌦️
+# Havalı-App 🌦️
 
 **Hava durumunu söyleyen değil, gününü havaya göre kuran uygulama.** ☂️
+
+Gerçekten HAVAlı!
 
 Hava uygulaması "yağmur %70" der ve orada kalır. Sorunun gerisini sen düşünürsün: Cem'le buluşmaya kaçta çıkmalıyım? Motorla yollar kaygan mı? Cuma denize gitmek için gruba ne demeli? İstanbul'a valize kaban koymalı mıyım? Havalı bu soruların hepsini **tek tahminden** cevaplar:
 
