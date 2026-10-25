@@ -1,4 +1,4 @@
-<img width="347" height="720" alt="2" src="https://github.com/user-attachments/assets/7eee1503-2c79-4d86-81e8-ef9539d25719" /># Havalı 🌦️
+/># Havalı 🌦️
 
 **Hava durumunu söyleyen değil, gününü havaya göre kuran uygulama.** ☂️
 
