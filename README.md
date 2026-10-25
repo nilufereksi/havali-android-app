@@ -53,7 +53,9 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 1. Bugün: canlı hava haritası
 <!-- Ekran görüntüsü: ![Bugün](docs/bugun.png) -->
-<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/6ea9e6cc-3a86-438a-8a31-55adc7b50637" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6ea9e6cc-3a86-438a-8a31-55adc7b50637" width="300" />
+</p>
 
 
 - **Gerçek Türkiye haritası:** İl ve ilçe sınırları uygulamanın içinde gelir, internet olmadan da çizilir.
