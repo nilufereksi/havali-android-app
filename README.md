@@ -1,4 +1,4 @@
-/># Havalı 🌦️
+# Havalı 🌦️
 
 **Hava durumunu söyleyen değil, gününü havaya göre kuran uygulama.** ☂️
 
