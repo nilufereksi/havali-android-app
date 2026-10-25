@@ -16,9 +16,16 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
 > Uygulamanın tamamını 1–2 dakikada gösteren kayıt. Harita açılışı (Türkiye → İzmir), şehir çipleri ve Gemlik, kaydırarak grup oylaması, trafik haritası ve alternatif rota, kedili uyarı bildirimi, açık/koyu tema ve yan çevirme sırasıyla gösterilir.
 
 <!-- Videoyu buraya ekle: GitHub'da düzenleme ekranına .mp4 dosyasını sürükleyip bırakman yeterli. -->
->FPS düşmemesi için 4 part olarak video yüklendi. 
+>FPS düşmemesi için 4 part olarak video yüklendi.
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d3013df3-d79c-4c17-b709-970d3903ac1b" width="300" />
+  <img src="https://github.com/user-attachments/assets/57f365a8-1081-461d-9c8d-cfabd843276f" width="300" /> 
+</p>
+
 >1. PART:
-<img width="347" height="720" alt="1" src="https://github.com/user-attachments/assets/d3013df3-d79c-4c17-b709-970d3903ac1b" />
+<img width="347" height="720" alt="1" src= />
 
 >2. PART:
 <img width="347" height="720" alt="2" src="https://github.com/user-attachments/assets/57f365a8-1081-461d-9c8d-cfabd843276f" />
