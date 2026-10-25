@@ -97,9 +97,19 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 **Her ekranda:** Koyu ve açık tema düğmesi, sağda kaydırma çubuğu; telefon yan çevrilince iki sütunlu düzen açılır.
 
 ### 5. Açık/Koyu Tema, arama çubuğu ve responsive tasarm
-<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/2450d912-e5b7-4b29-89fb-d6cd4ba4eb58" />
-<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/c0f98b91-81d1-4a22-8067-0a2b8f35a317" />
-<img width="488" height="1010" alt="image" src="https://github.com/user-attachments/assets/3ff22787-1442-4c1c-abf1-8088b77e9a2d" />
+<table>
+  <tr>
+    <th>1. PART</th>
+    <th>2. PART</th>
+    <th>3. PART</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/2450d912-e5b7-4b29-89fb-d6cd4ba4eb58" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/c0f98b91-81d1-4a22-8067-0a2b8f35a317" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/3ff22787-1442-4c1c-abf1-8088b77e9a2d" width="300" /></td>
+  </tr>
+</table>
+
 <img width="1141" height="555" alt="image" src="https://github.com/user-attachments/assets/cfd1b56b-8f53-4057-a946-9f2fb1111f90" />
 <img width="1141" height="555" alt="image" src="https://github.com/user-attachments/assets/bd79a750-3887-45ae-a94e-1f5f06795f0a" />
 
