@@ -176,8 +176,10 @@ presentation  →  domain  ←  data
 | Responsive / yan çevirme | `navigation/HavaliApp.kt` (WindowSizeClass), `today/map/MapCamera.kt` |
 | Birim testleri | `app/src/test/` (38 test: domain, veri dönüşümü, ViewModel) |
 
+
+Gerçekten HAVAlı! Demi? 🤓
+
 ## Veri ve lisanslar
 
 Hava verisi: [Open-Meteo](https://open-meteo.com) (CC BY 4.0) · Türkiye sınırları: [borders-of-turkey](https://github.com/uyasarkocal/borders-of-turkey) (CC0) · Komşu ülkeler: [Natural Earth](https://www.naturalearthdata.com) (kamu malı). Trafik ve çıkış tahmini kural tabanlıdır; grup oyları ve raporlar demo için bellekte tutulur.
 
-Gerçekten HAVAlı! Demi? 🙂‍↔️
