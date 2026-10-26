@@ -144,7 +144,7 @@ presentation  →  domain  ←  data
 - **data** domain arayüzlerini uygular; DEMO/CANLI seçimi Strategy deseniyle yapılır.
 - **presentation** ekranları durumsuzdur: `UiState` okur, `onEvent` ile bildirir.
 - **di/AppContainer.kt** bütün bağımlılıkları tek yerde kurar.
-- **Temiz kod:** projede toplam 8 `if` var ve hiçbir dosyada birden fazla yok; kararlar `when`, enum ve kural nesneleriyle verilir. Metinler `strings.xml`'de, sabitler adlandırılmış, biçim ktlint ile denetlenir.
+- **Temiz kod:** projede toplam 8 `if` var ve hiçbir dosyada birden fazla yok. Sonuçta ne kadar fazla if, o kadar fazlalık; kararlar `when`, enum ve kural nesneleriyle verilir. Metinler `strings.xml`'de, sabitler adlandırılmış, biçim ktlint ile denetlenir.
 
 ## Ders konuları → dosyalar
 
