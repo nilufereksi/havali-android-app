@@ -2,9 +2,8 @@
 
 🌀**Hava durumunu söyleyen değil, gününü havaya göre kuran uygulama.** 🌀
 
-Gerçekten HAVAlı!
 
-Hava uygulaması sana "hava yağmurlu" der ve orada bırakır. Gerisini sen düşünürsün: Kızlarla buluşmaya kaçta çıkmalıyım? Motorla yollar kaygan mı? Gruptakiler cuma deniz planına uyacak mu? İstanbul'a valize kaban koymalı mıyım? Ah şu deli sorular!
+Hava uygulaması sana "hava yağmurlu" der ve orada bırakır. Gerisini sen düşünürsün: Kızlarla buluşmaya kaçta çıkmalıyım? Motorla yollar kaygan mı? Gruptakiler cuma deniz planına uyacak mu? İstanbul'a valize kaban koymalı mıyım? Ah şu deli sorular! 
 
 Havalı bu soruların hepsini **tek tahminden** cevaplar:
 
@@ -180,3 +179,5 @@ presentation  →  domain  ←  data
 ## Veri ve lisanslar
 
 Hava verisi: [Open-Meteo](https://open-meteo.com) (CC BY 4.0) · Türkiye sınırları: [borders-of-turkey](https://github.com/uyasarkocal/borders-of-turkey) (CC0) · Komşu ülkeler: [Natural Earth](https://www.naturalearthdata.com) (kamu malı). Trafik ve çıkış tahmini kural tabanlıdır; grup oyları ve raporlar demo için bellekte tutulur.
+
+Gerçekten HAVAlı! Demi? 🙂‍↔️
