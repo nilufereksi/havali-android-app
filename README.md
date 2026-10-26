@@ -21,14 +21,6 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
 
 <!-- Videoyu buraya ekle: GitHub'da düzenleme ekranına .mp4 dosyasını sürükleyip bırakman yeterli. -->
 
-## Çalıştırma
-
-1. Repoyu indir: `git clone "https://github.com/nilufereksi/havali-android-app.git"` (ya da GitHub'da **Code › Download ZIP**).
-2. Android Studio › **File › Open** › proje klasörü. Gradle senkronizasyonunu bekle (JDK 17, AGP 8.13.1, Kotlin 2.2.20).
-3. Emülatör ya da telefon seç, **Run ▶**. Komut satırından: `./gradlew assembleDebug`, testler: `./gradlew testDebugUnitTest`.
-
-Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANLI** anahtarı gerçek Open-Meteo verisine geçirir. CANLI'dayken uçak modunu açarsan hata ekranı ve **Tekrar dene** görünür.
-
 ## Özellikler
 
 ### 1. Bugün: canlı hava haritası
@@ -189,6 +181,14 @@ presentation  →  domain  ←  data
 
 
 Gerçekten HAVAlı! Demi? 🤓
+
+## Çalıştırma
+
+1. Repoyu indir: `git clone "https://github.com/nilufereksi/havali-android-app.git"` (ya da GitHub'da **Code › Download ZIP**).
+2. Android Studio › **File › Open** › proje klasörü. Gradle senkronizasyonunu bekle (JDK 17, AGP 8.13.1, Kotlin 2.2.20).
+3. Emülatör ya da telefon seç, **Run ▶**. Komut satırından: `./gradlew assembleDebug`, testler: `./gradlew testDebugUnitTest`.
+
+Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANLI** anahtarı gerçek Open-Meteo verisine geçirir. CANLI'dayken uçak modunu açarsan hata ekranı ve **Tekrar dene** görünür.
 
 ## Veri ve lisanslar
 
