@@ -56,10 +56,18 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 1. Bugün: canlı hava haritası
 <!-- Ekran görüntüsü: ![Bugün](docs/bugun.png) -->
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/6ea9e6cc-3a86-438a-8a31-55adc7b50637" width="300" />
-</p>
-
+<div align="center">
+<table>
+  <tr>
+    <th align="center">1.Ekran Görüntüsü</th>
+    <th align="center">2.DEMO</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/6ea9e6cc-3a86-438a-8a31-55adc7b50637" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d3013df3-d79c-4c17-b709-970d3903ac1b" width="300" /></td>
+  </tr>
+  <tr>
+  </table>
 
 - **Gerçek Türkiye haritası:** İl ve ilçe sınırları uygulamanın içinde gelir, internet olmadan da çizilir.
 - **Her yerin kendi havası:** Yağmurda damlalar düşer, güneşte ışınlar döner, karda kar yağar, rüzgârda çizgiler akar.
@@ -71,9 +79,19 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 2. Planlar: kaydır, eşleş, plan oluşsun
 <!-- Ekran görüntüsü: ![Planlar](docs/planlar.png) -->
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1cac98b1-2f37-4c3d-b6c5-911142fe3341"  width="300" />
-</p>
+
+<div align="center">
+<table>
+  <tr>
+    <th align="center">1.Ekran Görüntüsü</th>
+    <th align="center">2.DEMO</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/1cac98b1-2f37-4c3d-b6c5-911142fe3341"  width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/57f365a8-1081-461d-9c8d-cfabd843276f" width="300" /></td>
+  </tr>
+  <tr>
+  </table>
 
 - **Grup oylaması:** "Beyza plan oylaması başlattı!" bildirimi kediyle gelir. Kartı sağa kaydırınca varsın, sola kaydırınca yoksun. Karar çıkınca plan takvime eklenir; istersen **kararını geri alırsın**.
 - **Akıllı çıkış saati:** Yağış, akşam yoğunluğu ve yoldaki raporlarla "17:30 değil, 17:11'de çık" der; hatırlatıcıyı açarsan zamanı gelince bildirim gönderir.
@@ -82,10 +100,18 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 3. Yol & Sağlık: yola çıkmadan önce
 <!-- Ekran görüntüsü: ![Yol ve Sağlık](docs/yol.png) -->
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/13498b0a-364b-4baa-84b5-052ba759aecf" width="300" />
-</p>
-
+<div align="center">
+<table>
+  <tr>
+    <th align="center">1.Ekran Görüntüsü</th>
+    <th align="center">2.DEMO</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/13498b0a-364b-4baa-84b5-052ba759aecf" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/33d7a2b7-3b3d-4f03-8e6b-651e049d11fa" width="300"/></td>
+  </tr>
+  <tr>
+  </table>
 
 - **Trafik haritası:** İzmir ve Gemlik'in ana yolları akıcıyken turkuaz, yoğunken turuncu, tıkalıyken kırmızıdır; üzerlerinde araçlar akar. Yol tıkalıysa **saks mavisi alternatif rota** önerir, tek dokunuşla seçersin.
 - **Uyarılar:** Fırtına, kıyıda dalga ve sis için kırmızı ünlemli uyarı gösterir.
@@ -95,10 +121,18 @@ Uygulama **DEMO** veriyle açılır, internet gerekmez. Haritadaki **DEMO / CANL
 
 ### 4. Hazırlık: kapıdan çıkmadan
 <!-- Ekran görüntüsü: ![Hazırlık](docs/hazirlik.png) -->
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1cf0bfb6-3547-4763-8d12-0bee6514789a"  width="300" />
-</p>
-
+<div align="center">
+<table>
+  <tr>
+    <th align="center">1.Ekran Görüntüsü</th>
+    <th align="center">2.DEMO</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/1cf0bfb6-3547-4763-8d12-0bee6514789a"width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/96539fd3-e4bb-478d-88a9-dde5020779bb" width="300"/></td>
+  </tr>
+  <tr>
+  </table>
 
 - **Hazır mısın? kartı:** Bugünün havası canlı çizilir; listeyi işaretledikçe halka dolar.
 - **Ne giysem?** Sana göre hissedilen sıcaklık ve yağmura göre üç parça önerir.
