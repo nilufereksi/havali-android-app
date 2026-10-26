@@ -1,6 +1,6 @@
-# Hava'lı-App 🌦️
+# Hava'lı-App ☂️
 
-**Hava durumunu söyleyen değil, gününü havaya göre kuran uygulama.** ☂️
+**Hava durumunu söyleyen değil, gününü havaya göre kuran uygulama.** 
 
 Gerçekten HAVAlı!
 
