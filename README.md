@@ -37,6 +37,7 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
   </tr>
   <tr>
   </table>
+  </div>
 
 - **Gerçek Türkiye haritası:** İl ve ilçe sınırları uygulamanın içinde gelir, internet olmadan da çizilir.
 - **Her yerin kendi havası:** Yağmurda damlalar düşer, güneşte ışınlar döner, karda kar yağar, rüzgârda çizgiler akar.
@@ -61,6 +62,7 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
   </tr>
   <tr>
   </table>
+  </div>
 
 - **Grup oylaması:** "Beyza plan oylaması başlattı!" bildirimi kediyle gelir. Kartı sağa kaydırınca varsın, sola kaydırınca yoksun. Karar çıkınca plan takvime eklenir; istersen **kararını geri alırsın**.
 - **Akıllı çıkış saati:** Yağış, akşam yoğunluğu ve yoldaki raporlarla "17:30 değil, 17:11'de çık" der; hatırlatıcıyı açarsan zamanı gelince bildirim gönderir.
@@ -81,6 +83,7 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
   </tr>
   <tr>
   </table>
+  </div>
 
 - **Trafik haritası:** İzmir ve Gemlik'in ana yolları akıcıyken turkuaz, yoğunken turuncu, tıkalıyken kırmızıdır; üzerlerinde araçlar akar. Yol tıkalıysa **saks mavisi alternatif rota** önerir, tek dokunuşla seçersin.
 - **Uyarılar:** Fırtına, kıyıda dalga ve sis için kırmızı ünlemli uyarı gösterir.
@@ -102,6 +105,7 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
   </tr>
   <tr>
   </table>
+  </div>
 
 - **Hazır mısın? kartı:** Bugünün havası canlı çizilir; listeyi işaretledikçe halka dolar.
 - **Ne giysem?** Sana göre hissedilen sıcaklık ve yağmura göre üç parça önerir.
