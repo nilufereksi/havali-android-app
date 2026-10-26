@@ -1,4 +1,4 @@
-# Havalı-App 🌦️
+# Hava'lı-App 🌦️
 
 **Hava durumunu söyleyen değil, gününü havaya göre kuran uygulama.** ☂️
 
