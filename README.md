@@ -5,6 +5,7 @@
 Gerçekten HAVAlı!
 
 Hava uygulaması sana "hava yağmurlu" der ve orada bırakır. Gerisini sen düşünürsün: Kızlarla buluşmaya kaçta çıkmalıyım? Motorla yollar kaygan mı? Gruptakiler cuma deniz planına uyacak mu? İstanbul'a valize kaban koymalı mıyım? Ah şu deli sorular!
+
 Havalı bu soruların hepsini **tek tahminden** cevaplar:
 
 - 🗺️ Haritada havayı **görürsün**: yağmur bulutu Urla'dan Bornova'ya ilerler, Alaçatı'da rüzgâr eser.
