@@ -139,16 +139,60 @@ Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines
 
 ## Mimari
 
+Uygulama **MVVM + katmanlı (Clean) mimari** ile yazıldı. Tek `:app` modülü, paketlerle ayrılmış üç katmandan oluşur. Bağımlılık yönü hep **içe doğrudur**: sunum katmanı domain'i, data katmanı da domain'in arayüzlerini bilir; domain hiçbirini bilmez.
+
 ```
-presentation  →  domain  ←  data
-(Compose + ViewModel)  (saf Kotlin: model, usecase, repository arayüzleri)  (Retrofit, assets, SharedPreferences, demo veri)
+┌───────────── Sunum katmanı (presentation) ─────────────┐
+│  Compose ekranları  ◄── UiState ──  ViewModel          │
+│  (durumsuz)          ── onEvent ─►  (StateFlow)        │
+└───────────────────────────┬────────────────────────────┘
+                            │ kullanım senaryolarını çağırır
+┌───────────── Domain katmanı (domain) ──────────────────┐
+│  model · usecase · repository arayüzleri (saf Kotlin)  │
+└───────────────────────────▲────────────────────────────┘
+                            │ arayüzleri uygular
+┌───────────── Veri katmanı (data) ──────────────────────┐
+│  remote (Retrofit) · local (assets, ayarlar)           │
+│  memory (demo içerik) · repository (Open-Meteo / Demo) │
+└────────────────────────────────────────────────────────┘
+       di/AppContainer: bağımlılıkları tek yerde kurar
 ```
 
-- **domain** Android'i bilmez; iş kuralları burada ve birim testlidir.
-- **data** domain arayüzlerini uygular; DEMO/CANLI seçimi Strategy deseniyle yapılır.
-- **presentation** ekranları durumsuzdur: `UiState` okur, `onEvent` ile bildirir.
-- **di/AppContainer.kt** bütün bağımlılıkları tek yerde kurar.
-- **Temiz kod:** projede toplam 8 `if` var ve hiçbir dosyada birden fazla yok. Sonuçta ne kadar fazla if, o kadar fazlalık; kararlar `when`, enum ve kural nesneleriyle verilir. Metinler `strings.xml`'de, sabitler adlandırılmış, biçim ktlint ile denetlenir.
+### 1. Domain katmanı: `domain/`
+Uygulamanın kuralları burada. Android, Retrofit ya da Compose bilmez; bu yüzden telefon olmadan JVM'de test edilir.
+- **`model/`**: Uygulamanın kavramları: `Forecast`, `Plan`, `GroupProposal`, `RoadRisk`, `TrafficCorridor`, `WeatherAlert`, `ComfortProfile`…
+- **`usecase/`**: Her iş tek sınıfta durur: `EvaluateActivitiesUseCase` (ne yapsam), `EstimateDepartureUseCase` (kaçta çıkmalı), `AssessRoadRiskUseCase`, `PredictTrafficUseCase`, `SuggestAlternativesUseCase`, `DetectAlertsUseCase`, `BuildPackingListUseCase`, `CastVoteUseCase`…
+- **`repository/`**: Verinin nereden geleceğini değil, **ne istendiğini** tanımlayan arayüzler: `WeatherRepository`, `PlanRepository`, `GuideRepository`…
+
+### 2. Veri katmanı: `data/`
+Domain arayüzlerini uygular; verinin internetten mi, cihazdan mı yoksa demodan mı geldiğine burada karar verilir.
+- **`remote/`**: Retrofit API'leri, Gson DTO'ları ve DTO'yu domain modeline çeviren mapper (Open-Meteo hava, arama, hava kalitesi).
+- **`local/`**: `assets` içindeki Türkiye haritası (Gson ile okunur) ve `SharedPreferences` ayarları (DEMO/CANLI seçimi, konfor profili).
+- **`memory/`**: Planlar, grup oyu ve topluluk raporları; `StateFlow` ile bellekte tutulur.
+- **`catalog/`**: Şehirler, kamp alanları ve trafik aksları.
+- **`repository/`**: `OpenMeteo*` (canlı), `Demo*` (senaryo) ve ikisi arasında seçim yapan `Switchable*` (Strategy deseni).
+
+### 3. Sunum katmanı: `presentation/`
+Ekranlar ve ViewModel'ler. Tek yönlü veri akışı: ekran yalnızca `UiState` okur, kullanıcı eylemini `onEvent(...)` ile ViewModel'e bildirir.
+- **`today/`, `plans/`, `road/`, `prepare/`**: Her ekranın `Screen`, `ViewModel` ve `UiState` dosyaları.
+- **`components/`**: Ortak bileşenler (kart, CityCard, DropBanner, kaydırma çubuğu, durum görünümleri).
+- **`common/`**: `LoadState` (Loading / Success / Empty / Error), hata çevirisi, metin eşlemeleri, izin isteme.
+- **`theme/`, `navigation/`**: Koyu ve açık tema; alt menü / yan menü ve sayfa geçişleri.
+
+### Yan paketler
+- **`di/AppContainer.kt`**: Bağımlılık enjeksiyonu (manual DI). Bütün nesneler bir kez kurulur ve ViewModel'lere verilir; testte sahte (fake) nesneler verilir.
+- **`notification/`**: Android bileşenleri: `BroadcastReceiver`, AlarmManager ile hatırlatma ve bildirim kanalı.
+
+### Örnek akış: "Kaçta çıkmalıyım?"
+`PlansScreen` → `PlansViewModel` → `WeatherRepository.getForecasts()` (data: Open-Meteo ya da demo, IO thread'inde) → `EstimateDepartureUseCase` (domain: yağış + akşam yoğunluğu + raporlar) → `PlansUiState` → ekranda "17:11'de çık".
+
+### Temiz kod ilkeleri
+- **Az `if`:** Projede toplam 8 `if` var ve hiçbir dosyada birden fazla yok. Kararlar `when`, davranış taşıyan enum'lar (`TravelMode`, `RiskLevel`) ve küçük kural nesneleriyle (`WeatherCheck`) verilir.
+- **Sihirli sayı yok:** Her eşik adıyla `companion object` içinde tanımlı.
+- **Kodda metin yok:** Bütün Türkçe metinler `strings.xml`'de.
+- **Tek doğruluk kaynağı:** Her ekranın durumu tek bir `StateFlow`; bileşenler durumsuz (state hoisting).
+- **Biçim:** ktlint ile denetlenir (`./gradlew spotlessCheck`).
+
 
 ## Ders konuları → dosyalar
 
