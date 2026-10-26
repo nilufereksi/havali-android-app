@@ -4,7 +4,8 @@
 
 Gerçekten HAVAlı!
 
-Hava uygulaması "yağmur %70" der ve orada kalır. Sorunun gerisini sen düşünürsün: Kızlarla buluşmaya kaçta çıkmalıyım? Motorla yollar kaygan mı? Cuma denize gitmek için gruba ne demeli? İstanbul'a valize kaban koymalı mıyım? Havalı bu soruların hepsini **tek tahminden** cevaplar:
+Hava uygulaması sana "hava yağmurlu" der ve orada bırakır. Gerisini sen düşünürsün: Kızlarla buluşmaya kaçta çıkmalıyım? Motorla yollar kaygan mı? Gruptakiler cuma deniz planına uyacak mu? İstanbul'a valize kaban koymalı mıyım? Ah şu deli sorular!
+Havalı bu soruların hepsini **tek tahminden** cevaplar:
 
 - 🗺️ Haritada havayı **görürsün**: yağmur bulutu Urla'dan Bornova'ya ilerler, Alaçatı'da rüzgâr eser.
 - ⏰ Planın için **ne zaman çıkacağını** öğrenirsin: yağış, akşam trafiği ve yoldaki raporlar hesaba katılır.
