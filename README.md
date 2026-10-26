@@ -4,12 +4,12 @@
 
 Gerçekten HAVAlı!
 
-Hava uygulaması "yağmur %70" der ve orada kalır. Sorunun gerisini sen düşünürsün: Cem'le buluşmaya kaçta çıkmalıyım? Motorla yollar kaygan mı? Cuma denize gitmek için gruba ne demeli? İstanbul'a valize kaban koymalı mıyım? Havalı bu soruların hepsini **tek tahminden** cevaplar:
+Hava uygulaması "yağmur %70" der ve orada kalır. Sorunun gerisini sen düşünürsün: Kızlarla buluşmaya kaçta çıkmalıyım? Motorla yollar kaygan mı? Cuma denize gitmek için gruba ne demeli? İstanbul'a valize kaban koymalı mıyım? Havalı bu soruların hepsini **tek tahminden** cevaplar:
 
 - 🗺️ Haritada havayı **görürsün**: yağmur bulutu Urla'dan Bornova'ya ilerler, Alaçatı'da rüzgâr eser.
 - ⏰ Planın için **ne zaman çıkacağını** öğrenirsin: yağış, akşam trafiği ve yoldaki raporlar hesaba katılır.
-- 🤝 Arkadaşlarınla **kaydırarak karar verirsin**: herkes oy verdiğinde plan takvime kendiliğinden eklenir.
-- 🧥 **Sana göre** hazırlanırsın: çabuk üşüdüğünü öğrenir, kıyafet ve valiz önerisini buna göre değiştirir.
+- 🥂 Arkadaşlarınla **kaydırarak karar verirsin**: herkes oy verdiğinde plan takvime kendiliğinden eklenir.
+- 💃 **Sana göre** hazırlanırsın: çabuk üşüdüğünü öğrenir, kıyafet ve valiz önerisini buna göre değiştirir.
 
 Kotlin · Jetpack Compose · Material 3 · MVVM + katmanlı mimari · Coroutines / StateFlow · Retrofit + Gson · Open-Meteo
 
