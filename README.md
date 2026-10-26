@@ -1,6 +1,6 @@
 # Hava'lı-App ☂️
 
-🌀**Hava durumunu söyleyen değil, gününü havaya göre kuran uygulama.** 🌀
+**Hava durumunu söyleyen değil, gününü havaya göre kuran uygulama.** 
 
 
 Hava uygulaması sana "hava yağmurlu" der ve orada bırakır. Gerisini sen düşünürsün: Kızlarla buluşmaya kaçta çıkmalıyım? Motorla yollar kaygan mı? Gruptakiler cuma deniz planına uyacak mu? İstanbul'a valize kaban koymalı mıyım? Ah şu deli sorular! 
