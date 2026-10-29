@@ -228,8 +228,8 @@ Ekranlar ve ViewModel'ler. Tek yönlü veri akışı: ekran yalnızca `UiState` 
 | Responsive / yan çevirme | `navigation/HavaliApp.kt` (WindowSizeClass), `today/map/MapCamera.kt` |
 | Birim testleri | `app/src/test/` (38 test: domain, veri dönüşümü, ViewModel) |
 
-
-Gerçekten HAVAlı! Demi? 🤓
+Yağmur yüzünden geç kalmaktan sıkıldın mı? Ya da trafiğe kalmaktan? Peki sürüş güvenliği? Ya Beyza'nın deniz planı? İşler karıştı değil mi?                 Hiç sorun değil çünkü çözümü çok Hava'lı!☂️
+Gerçekten HAVAlı!
 
 ## Çalıştırma
 
